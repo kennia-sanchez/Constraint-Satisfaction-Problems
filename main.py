@@ -61,6 +61,8 @@ def solve(board):
 
 if __name__ == "__main__":
     start_time = time.time()
+
+    # Numbers according each sudoku
     sudoku_board = [
         [8, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 3, 6, 0, 0, 0, 0, 0],
